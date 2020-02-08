@@ -1,6 +1,7 @@
 <template>
 <div>
     <app-nav></app-nav>
+    <app-header></app-header>
     <app-about></app-about>
     <app-skills></app-skills>
     <app-resume></app-resume>

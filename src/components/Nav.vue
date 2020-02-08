@@ -22,7 +22,7 @@
                     <span class="icon">
                         <i class="fas fa-glasses"></i>
                     </span>
-                    <span>{{ $t('nav.skills') }}</span>
+                    <span>{{ $t('skills.skills') }}</span>
                 </a>
 
                 <a class="navbar-item" href="#resume">
@@ -36,7 +36,7 @@
                     <span class="icon">
                         <i class="fas fa-th-list"></i>
                     </span>
-                    <span>{{ $t('nav.portofolio') }}</span>
+                    <span>{{ $t('portofolio.portofolio') }}</span>
                 </a>
             </div>
         </div>

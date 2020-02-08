@@ -20,7 +20,7 @@ router.beforeEach((to, from, next) => {
   // use the language from the routing param or default language
   let language = to.params.lang;
   if (!language) {
-    language = 'en';
+    language = 'fr';
   }
 
   // set the current language for vuex-i18n. note that translation data
