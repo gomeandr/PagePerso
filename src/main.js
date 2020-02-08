@@ -3,8 +3,8 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import i18n from './i18n'
 import { routes } from './routes'
-import '@fortawesome/fontawesome-free/css/all.css'
-import '@fortawesome/fontawesome-free/js/all.js'
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import '@fortawesome/fontawesome-free/js/all.min.js'
 
 require("./assets/main.scss")
 Vue.use(VueRouter)
