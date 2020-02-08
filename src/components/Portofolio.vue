@@ -24,7 +24,7 @@
                 </header>
                 <div class="card-content">
                   <figure class="image">
-                    <img src="/images/2020_pagePerso.PNG" alt="Page personnelle" />
+                    <img src="/ressources/images/2020_pagePerso.PNG" alt="Page personnelle" />
                   </figure>
                 </div>
                 <footer class="card-footer">
@@ -47,7 +47,7 @@
                 </header>
                 <div class="card-content">
                   <figure class="image">
-                    <img src="\images\2012_Unige_pagePerso.PNG" alt="Page personnelle Unige" />
+                    <img src="\ressources\images\2012_Unige_pagePerso.PNG" alt="Page personnelle Unige" />
                   </figure>
                 </div>
               </div>

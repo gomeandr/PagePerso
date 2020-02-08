@@ -36,7 +36,7 @@
                     <span class="icon">
                         <i class="fas fa-th-list"></i>
                     </span>
-                    <span>{{ $t('portofolio.portofolio') }}</span>
+                    <span>{{ $t('portfolio.portfolio') }}</span>
                 </a>
             </div>
         </div>

@@ -1,2 +1,41 @@
 {
+    "perso":{
+        "hello" : "Bonjour, je suis",
+        "job": "Specialiste E-learning "
+    },
+    "nav": {
+        "about": "About",
+        "resume": "CV" 
+    },
+    "skills": {
+        "skills": "Compétences",
+        "computer": "Compétences Techniques",
+        "social": "Compétences Sociales",
+        "independance": "Indépendance",
+        "presentation": "Présentation",
+        "projectManagement": "Project Management",
+        "organisation": "Organisation"
+    },
+    "profile": {
+        "profile": "Contact",
+        "address": "Adresse",
+        "phone": "Téléphone",
+        "email": "Email"
+    },
+    "lang":{
+        "lang": "Langues",
+        "french":"Français",
+        "spanish": "Espagnol",
+        "german": "Allemand",
+        "italian": "Italien",
+        "english": "Anglais"
+    },
+    "portfolio": {
+        "portfolio": "Portfolio"
+    },
+    "button":{
+        "download": "Télécharger mon CV",
+        "codeSource": "Code Source"
+    },
+    "aboutme": "Spécialiation E-learning effectué auprès de l'université de Genève pendant mon master où je me suis concentré sur la <strong/>pédagogie</strong>, J'ai également pu entreprendre des cours d'<strong>informatique</strong> à UC Berkeley où j'ai pris de cours tels que l'informatique, les 'data sciences' et l'entreprenariat."
 }

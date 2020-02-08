@@ -130,7 +130,7 @@
         <div class="column is one-third">
             <div class="card">
                 <div class="card-content skills-content">
-                    <h3 class="title is-4">{{('skills.social')}}</h3>
+                    <h3 class="title is-4">{{ $t('skills.social') }}</h3>
                     <div class="content">
 
                         <article class="media">
