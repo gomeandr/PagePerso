@@ -1,11 +1,28 @@
 {
+    "months":{
+        "January": "janvier",
+        "February": "février",
+        "March": "mars",
+        "April": "avril",
+        "May": "mai",
+        "June": "juin",
+        "July": "juillet",
+        "August": "août",
+        "September": "septembre",
+        "October": "octobre",
+        "November": "novembre",
+        "December": "décembre"
+    },
     "perso":{
         "hello" : "Bonjour, je suis",
         "job": "Specialiste E-learning "
     },
-    "nav": {
-        "about": "About",
-        "resume": "CV" 
+    "about": {
+        "about": "About"
+    },
+    "resume":{
+        "resume": "CV",
+        "message": "Mon parcours"
     },
     "skills": {
         "skills": "Compétences",
@@ -23,6 +40,7 @@
         "email": "Email"
     },
     "lang":{
+        "current" : "fr",
         "lang": "Langues",
         "french":"Français",
         "spanish": "Espagnol",

@@ -4,8 +4,9 @@
     <app-header></app-header>
     <app-about></app-about>
     <app-skills></app-skills>
-    <app-resume></app-resume>
     <app-portofolio></app-portofolio>
+    <app-resume></app-resume>
+    <app-history></app-history>
     <app-footer></app-footer>
 </div>
 </template>
@@ -18,6 +19,7 @@ import About from './components/About.vue';
 import Skills from './components/Skills.vue';
 import Resume from './components/Resume.vue';
 import Portofolio from './components/Portofolio.vue'
+import History from './components/History.vue'
 
 export default {
     name: 'app',
@@ -29,6 +31,7 @@ export default {
         'app-skills': Skills,
         'app-resume': Resume,
         'app-portofolio': Portofolio,
+        'app-history': History
     }
 }
 </script>
