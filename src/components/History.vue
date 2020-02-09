@@ -91,7 +91,9 @@
                 <span class="tag is-medium is-primary">Now</span>
             </header>
             <div class="timeline-item">
-                <div class="timeline-marker"></div>
+                <div class="timeline-marker is-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
                 <div class="timeline-content">
                     <p class="heading">{{ $t('months.February') }} 2020</p>
                     <strong>Master AISE</strong><br>
@@ -109,7 +111,9 @@
                 </div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-marker"></div>
+                <div class="timeline-marker is-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
                 <div class="timeline-content">
                     <p class="heading">{{ $t('months.September') }} 2019</p>
                     <strong>Certificat Master TECFA</strong><br>
