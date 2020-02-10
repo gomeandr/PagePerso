@@ -1,14 +1,16 @@
 # gomeandr.ch
 
 ## Project setup
-```
-Use
 
-Pre-requisite:
+### Pre-requisite
+
+```
 Install npm
 
-Then: 
+```
+### Then 
 
+```
 npm install -g vue-cli
 npm install
 
