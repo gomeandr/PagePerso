@@ -1,5 +1,17 @@
 {
-    "months":{
+    "academic": {
+        "academic": "Académique"
+    },
+    "professional": {
+        "professional": "Professionnel",
+        "TCS": "Touring Club Suisse",
+        "coordinator" : "Chargé d'assistance",
+        "back_office" : "Adjoint administratif service interne"
+    },
+    "temp": {
+        "now": "maintenant"
+    },
+    "months": {
         "January": "janvier",
         "February": "février",
         "March": "mars",
@@ -13,14 +25,14 @@
         "November": "novembre",
         "December": "décembre"
     },
-    "perso":{
-        "hello" : "Bonjour, je suis",
+    "perso": {
+        "hello": "Bonjour, je suis",
         "job": "Specialiste E-learning "
     },
     "about": {
         "about": "About"
     },
-    "resume":{
+    "resume": {
         "resume": "CV",
         "message": "Mon parcours"
     },
@@ -39,10 +51,10 @@
         "phone": "Téléphone",
         "email": "Email"
     },
-    "lang":{
-        "current" : "fr",
+    "lang": {
+        "current": "fr",
         "lang": "Langues",
-        "french":"Français",
+        "french": "Français",
         "spanish": "Espagnol",
         "german": "Allemand",
         "italian": "Italien",
@@ -52,7 +64,7 @@
         "portfolio": "Portfolio",
         "message": "Mes derniers travaux"
     },
-    "button":{
+    "button": {
         "download": "Télécharger mon CV",
         "codeSource": "Code Source"
     },

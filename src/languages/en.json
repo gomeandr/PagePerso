@@ -1,5 +1,18 @@
 {
-    
+    "academic" : {
+        "academic": "Academic"
+
+    },
+    "professional" : {
+        "professional": "Professional",
+        "TCS" : "Touring Club Switzerland",
+        "coordinator" : "Assistant coordinator",
+        "back_office" : "Back office staff"
+
+    },
+    "temp": {
+        "now": "now"
+    },
     "months":{
         "January": "January",
         "February": "February",

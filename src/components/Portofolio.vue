@@ -8,7 +8,7 @@
         <br />
         <div class="container">
             <div class="columns is-multiline is-centered">
-                <div class="column is-half" v-for="portfolio in portfolios" :key="portfolio.id">
+                <div class="column is-one-third" v-for="portfolio in portfolios" :key="portfolio.id">
                     <a v-bind:href="portfolio.href">
                         <div class="card">
                             <header class="card-header">
@@ -53,8 +53,8 @@ export default {
                 {
                     titel: 'ShareUp Association',
                     href: 'https://gomeandr.ch/shareup/',
-                    img: '/ressources/images/shareUp.PNG',
-                    tags: ['2018', 'HMLT', 'Bootstrap']
+                    img: '/ressources/images/shareUP.PNG',
+                    tags: ['2018', 'Angular v2', 'Bootstrap']
                 },
                 {
                     titel: 'Game for TCS',
@@ -63,16 +63,10 @@ export default {
                     tags: ['2017', 'Twine']
                 },
                 {
-                    titel: 'Game for CERAH',
-                    href: '/ressources/files/H2O.exe',
-                    img: '/ressources/images/CERAH.PNG',
-                    tags: ['2016', 'Clickteam Fusion 2.5', 'Point&Click Game']
-                },
-                {
-                    titel: 'Video',
-                    href: 'http://tecfaetu.unige.ch/etu-maltt/volt/andresg0/stic-1/ex4/video.html',
-                    img: '/ressources/images/sautHauteur.PNG',
-                    tags: ['2015', 'HTML5 Player', 'Pedagogique']
+                    titel: 'Search Engine for Companies',
+                    href: 'https://gomeandr.ch/search-engine/',
+                    img: '/ressources/images/searchTool.PNG',
+                    tags: ['2016', 'Angular v1', 'Bootstrap']
                 },
                 {
                     titel: 'Personal page university',
@@ -80,7 +74,7 @@ export default {
                     img: '/ressources/images/2012_Unige_pagePerso.PNG',
                     tags: ['2012', 'HMLT', 'Bootstrap']
                 },
-            ],
+            ]
         };
     }
 };
