@@ -1,4 +1,5 @@
 {
+    
     "months":{
         "January": "January",
         "February": "February",
@@ -49,7 +50,8 @@
         "english": "English"
     },
     "portfolio": {
-        "portfolio": "Portfolio"
+        "portfolio": "Portfolio",
+        "message": "My last works"
     },
     "button":{
         "download": "Download my resume",

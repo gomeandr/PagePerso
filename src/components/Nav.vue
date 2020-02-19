@@ -8,26 +8,27 @@
                     </span>
                     <span>{{ $t('about.about') }}</span>
                 </a>
-                <a class="navbar-item" href="#skills">
+                 <a class="navbar-item" href="#portfolio">
                     <span class="icon">
-                        <i class="fas fa-glasses"></i>
+                        <i class="fas fa-th-list"></i>
                     </span>
-                    <span>{{ $t('skills.skills') }}</span>
+                    <span>{{ $t('portfolio.portfolio') }}</span>
                 </a>
-
                 <a class="navbar-item" href="#resume">
                     <span class="icon">
                         <i class="fas fa-file-alt"></i>
                     </span>
                     <span>{{ $t('resume.resume') }}</span>
                 </a>
-
-                <a class="navbar-item" href="#portfolio">
+                <a class="navbar-item" href="#skills">
                     <span class="icon">
-                        <i class="fas fa-th-list"></i>
+                        <i class="fas fa-glasses"></i>
                     </span>
-                    <span>{{ $t('portfolio.portfolio') }}</span>
+                    <span>{{ $t('skills.skills') }}</span>
                 </a>
+               
+
+                
 
             </div>
 

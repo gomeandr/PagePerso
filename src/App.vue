@@ -3,10 +3,10 @@
     <app-nav></app-nav>
     <app-header></app-header>
     <app-about></app-about>
-    <app-skills></app-skills>
     <app-portofolio></app-portofolio>
     <app-resume></app-resume>
     <app-history></app-history>
+    <app-skills></app-skills>
     <app-footer></app-footer>
 </div>
 </template>

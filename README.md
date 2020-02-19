@@ -11,19 +11,19 @@ Install npm
 ### Then 
 
 ```
-npm install -g vue-cli
-npm install
+$ npm install -g vue-cli
+$ npm install
 
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+$ npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+$ npm run build
 ```
 
 ### Customize configuration
