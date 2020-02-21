@@ -13,7 +13,7 @@
                         <div class="card">
                             <header class="card-header">
                                 <p class="card-header-title">
-                                    <span>{{ (portfolio.titel) }} </span>
+                                    <span>{{ portfolio.titel }} </span>
                                     <span class="is-pulled-right">
                                         <span v-for="tag in portfolio.tags" :key="tag.id" class="tag is-default"> {{ tag }}</span>
                                     </span>
@@ -24,6 +24,9 @@
                                     <img v-bind:src="portfolio.img" v-bind:alt="portfolio.titel" />
                                 </figure>
                             </div>
+                            <footer v-if="portfolio.source" class="card-footer">
+                                <a v-bind:href="portfolio.source" class="card-footer-item is-danger">Source</a>
+                            </footer>
                         </div>
                     </a>
                 </div>
@@ -54,6 +57,7 @@ export default {
                     titel: 'ShareUp Association',
                     href: 'https://gomeandr.ch/shareup/',
                     img: '/ressources/images/shareUP.PNG',
+                    source: 'https://github.com/gomeandr/shareupgeneve',
                     tags: ['2018', 'Angular v2', 'Bootstrap']
                 },
                 {
@@ -66,6 +70,7 @@ export default {
                     titel: 'Search Engine for Companies',
                     href: 'https://gomeandr.ch/search-engine/',
                     img: '/ressources/images/searchTool.PNG',
+                    source: 'https://github.com/gomeandr/search-tool',
                     tags: ['2016', 'Angular v1', 'Bootstrap']
                 },
                 {

@@ -1,12 +1,12 @@
-{
+{    
     "academic": {
         "academic": "Académique"
     },
     "professional": {
         "professional": "Professionnel",
         "TCS": "Touring Club Suisse",
-        "coordinator" : "Chargé d'assistance",
-        "back_office" : "Adjoint administratif service interne"
+        "coordinator": "Chargé d'assistance",
+        "back_office": "Adjoint administratif service interne"
     },
     "temp": {
         "now": "maintenant"

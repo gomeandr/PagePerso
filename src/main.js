@@ -7,6 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 import '@fortawesome/fontawesome-free/js/all.min.js'
 
 require("./assets/main.scss")
+
 Vue.use(VueRouter)
 
 const router = new VueRouter({
@@ -30,8 +31,11 @@ router.beforeEach((to, from, next) => {
   
 });
 
-new Vue({
+
+var vm1 = new Vue({
   i18n,
   router,
   render: h => h(App)
 }).$mount('#app')
+
+console.log(data.title)

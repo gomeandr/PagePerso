@@ -26,12 +26,7 @@
                     </span>
                     <span>{{ $t('skills.skills') }}</span>
                 </a>
-               
-
-                
-
             </div>
-
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="field is-grouped">

@@ -6,6 +6,7 @@
         <h4 class="subtitle is-5">{{ $t("perso.job") }}</h4>
         <div class="container">
             <p v-html="$t('aboutme')"></p>
+            <br>
         </div>
     </div>
 
