@@ -15,7 +15,7 @@
                                 <p class="card-header-title">
                                     <span v-if="$t('lang.current') === 'fr'">{{ portfolio.titel_fr }}</span>
                                     <span v-else-if="$t('lang.current') === 'en'">{{ portfolio.titel_en }}</span>
-                                    <span v-else>{{ portfolio.titel }} </span>
+                                    
                                     <span class="is-pulled-right">
                                         <span v-for="tag in portfolio.tags" :key="tag.id" class="tag is-default"> {{ tag }}</span>
                                     </span>
@@ -42,7 +42,15 @@
 export default {
     data() {
         return {
-            portfolios: [{
+            portfolios: [
+                {
+                    titel_fr: 'Blog TechnoElectrik',
+                    titel_en: 'Blog TechnoElectrik',
+                    href: 'https://technoelectrik.ch',
+                    img: '/ressources/images/TechnoElectrik.png',
+                    tags: ['2020', 'Wordpress', 'Blog', 'Energies Renouvelables', 'Technologies']
+                },
+                {
                     titel_en: 'E-commerce Page',
                     titel_fr: 'Page E-commerce',
                     href: 'https://drakar.ch',
@@ -58,7 +66,8 @@ export default {
                     tags: ['2020', 'Vue.js', 'Bulma']
                 },
                 {
-                    titel: 'ShareUp Association',
+                    titel_en: 'Association ShareUp ',
+                    titel_fr: 'ShareUp Association',
                     href: 'https://gomeandr.ch/shareup/',
                     img: '/ressources/images/shareUP.PNG',
                     source: 'https://github.com/gomeandr/shareupgeneve',
